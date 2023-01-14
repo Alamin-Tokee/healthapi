@@ -2,11 +2,11 @@
 
 
 ## API endpoint description
-1. Signup:  http://127.0.0.1:8000/api/signup/
--> Request parameter(POST)
-email: example@gmail.com
-username: given number
-password : ******
+1. Signup:  http://127.0.0.1:8000/api/signup/  
+-> Request parameter(POST)  
+email: example@gmail.com  
+username: given number  
+password : ******  
 
 2. Signin: http://127.0.0.1:8000/api/signin/
 -> Request perameter(POST)
@@ -41,16 +41,16 @@ contact: add number which you want to use for plan
 primary_number: True or False add for confirm using current plan
 
 7. Add number: http://127.0.0.1:8000/api/phone/<username>/
--> Request perameter(PUT)
-contact: add number which you want to use for plan
-primary_number: True or False add for confirm using current plan
+-> Request perameter(PUT)  
+contact: add number which you want to use for plan  
+primary_number: True or False add for confirm using current plan  
 
-8. Get active number: http://127.0.0.1:8000/api/phone/<username>/
+8. Get active number: http://127.0.0.1:8000/api/phone/<username>/  
 -> Request perameter(GET)
 
-9. Get active number: http://127.0.0.1:8000/api/phone/<username>/
+9. Get active number: http://127.0.0.1:8000/api/phone/<username>/  
 -> Request perameter(DELETE)
 
-10. Get Payment: http://127.0.0.1:8000/api/payment/<username>/
--> Request perameter(GET)
-This information mainly which you have to payment for further use and after that will be payment 
+10. Get Payment: http://127.0.0.1:8000/api/payment/<username>/  
+-> Request perameter(GET)  
+This information mainly which you have to payment for further use and after that will be   payment 
